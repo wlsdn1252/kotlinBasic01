@@ -13,7 +13,10 @@ class MainActivity : AppCompatActivity() {
 
         clickBtn.setOnClickListener {
             Log.d("메인화면", "버튼이 클릭되었습니다.") // 버튼이 클릭됐을때 로그 출력하기
+            Log.e("메인화면", "에러관련 로그")
         }
+
+
 
     }
 }
