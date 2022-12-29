@@ -16,7 +16,10 @@ class MainActivity : AppCompatActivity() {
             Log.e("메인화면", "에러관련 로그")
         }
 
+        smallBtn.setOnClickListener {
 
+            Toast.makeText(this, "작은버튼 눌림", Toast.LENGTH_SHORT).show()
+        }
 
     }
 }
